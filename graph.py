@@ -34,10 +34,9 @@ class FlightGraphNode:
 
 class FlightGraph:
     """
-        Nodes are departures and arrivals,
-        edges are flights or layovers with the price indicating the price of the flight or 0 in case of layover
-        and the duration indicating the duration of the flight or the layover
-
+    Nodes are departures and arrivals,
+    edges are flights or layovers with the price indicating the price of the flight or 0 in case of layover
+    and the duration indicating the duration of the flight or the layover
     """
     def __init__(self, flights: List[Flight], num_bags: int):
         self.flights = flights

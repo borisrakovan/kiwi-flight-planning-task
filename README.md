@@ -1,3 +1,17 @@
+# Solution to the Python weekend entry task
+
+This python project contains solution to the Python weekend entry task whose original description
+is provided below.
+
+To run the solution, simply unzip the solution_BorisRakovan.zip archive and run 
+
+`python -m solution example/example0.csv RFZ WIW --bags=1 --return`
+
+The last 2 arguments are optional. Json compatible solution should then be printed to the standard output.
+
+
+---
+
 # Python weekend entry task
 
 **Write a python script/module/package, that for a given flight data in a form of `csv` file (check the examples), prints out a structured list of all flight combinations for a selected route between airports A -> B, sorted by the final price for the trip.**
